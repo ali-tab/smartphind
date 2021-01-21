@@ -274,11 +274,11 @@ class TestingApp:
 
                 name = (i.find("a").string)
 
-                price = i.find("span", class_="styledComponents__StyledPriceDigits-alblfz-5 gtRPyG").string
+                price = i.find("span", class_="styledComponents__StyledPriceDigits-alblfz-6 hLsshG").string
                 
                 price = price[price.index("$"):]
 
-                mpricearr = i.find("span", class_="sc-iAyFgw amount hKCZrQ")
+                mpricearr = i.find("span", class_="sc-kkGfuU amount iOUmrF")
 
                 mprice = "$" + mpricearr.contents[0] + mpricearr.find("span").contents[0] + "/mo."
 
